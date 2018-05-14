@@ -1,0 +1,40 @@
+{
+  "name": "jfn",
+  "version": "1.0.0",
+  "description": "Joins functions into a single function that runs them in serial or in parallel.",
+  "keywords": [
+    "join",
+    "joined",
+    "functions",
+    "sequence",
+    "serial",
+    "parallel"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/jfn",
+  "repository": "lamansky/jfn",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "@lamansky/flatten": "^1.0.0",
+    "vfn": "^1.1.0"
+  },
+  "devDependencies": {
+    "equals": "^1.0.5",
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.1.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
